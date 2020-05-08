@@ -11,4 +11,3 @@ print(tag.name)
 tag = soup.p
 print(tag)
 print(tag.name)
-

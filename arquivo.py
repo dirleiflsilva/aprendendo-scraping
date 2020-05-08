@@ -12,6 +12,6 @@ print(arq.read())
 arq.close()
 '''
 
-#forma pythonica de ler arquivo
+# forma pythonica de ler arquivo
 with open('arquivo.txt','r') as f:
     print(f.read())

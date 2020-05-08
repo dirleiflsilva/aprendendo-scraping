@@ -15,5 +15,3 @@ with open('arquivo01.html','r') as f:
 # buscando texto da tag atual
 #print(soup.p.string)
 print(soup.p.b.string)
-
-

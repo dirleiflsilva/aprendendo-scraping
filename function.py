@@ -4,3 +4,4 @@ def media(n1, n2):
     print(resultado)
 
 media(10,2)
+
