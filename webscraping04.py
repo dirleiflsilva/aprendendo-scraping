@@ -1,5 +1,12 @@
+"""
+parseando arquivo html
+retornando texto
+parser padrão
+"""
+# importando modulo BeautifulSoup do pacote bs4
 from bs4 import BeautifulSoup
 
+# abrir arquivo para leitura
 with open('arquivo01.html','r') as f:
     soup = BeautifulSoup(f, 'html5lib')
 
@@ -13,5 +20,13 @@ with open('arquivo01.html','r') as f:
 #print(soup.p.get_text())
 
 # buscando texto da tag atual
-#print(soup.p.string)
+print(soup.p.string)
 print(soup.p.b.string)
+
+'''
+<p class="title">
+    <b>
+     The Dormouse's story
+   </b>
+</p>
+'''
