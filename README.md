@@ -3,7 +3,7 @@ Neste projeto estou aprendendo a fazer web scraping com Python e algumas ferrame
 
 **Pacotes instalados**
 
-~~~shell script
+```bash
 pip install beautifulsoup4
   
 pip install requests
@@ -11,7 +11,7 @@ pip install requests
 pip install lxml
   
 pip install html5lib 
-~~~  
+```  
 
 
 
