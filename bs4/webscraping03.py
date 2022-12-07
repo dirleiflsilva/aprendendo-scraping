@@ -14,11 +14,13 @@ print(soup.p['class'])
 
 # mostrar atributos de p
 print(soup.p.attrs)
+
 # mostrar atributos de a
 print(soup.a.attrs)
 
 # acessando atributo - dicionário
 print(soup.a['href'])
+
 # acessando atributo - get
 print(soup.a.get('href'))
 

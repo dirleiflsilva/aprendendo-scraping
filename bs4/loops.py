@@ -13,6 +13,7 @@ while cont <= 10:
 """
 loop utilizando for
 """
+
 # range(1, 10) inicia em 1 e incrementa em 1 até 10 - 1 = 9
 # for cont in range(1, 10):
 

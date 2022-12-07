@@ -5,7 +5,6 @@ parseando arquivo html
 import requests
 # importando modulo BeautifulSoup do pacote bs4
 from bs4 import BeautifulSoup
-
 '''
 # usando with para garantir a finalização do processo/recurso
 with open('arquivo01.html','r') as file: # r = read
@@ -25,6 +24,7 @@ print(soup_string)
 """
 utilizando parser html5lib
 """
+
 with open('arquivo01.html','r') as f:
     soup_string = BeautifulSoup(f.read(),'html5lib')
 print(soup_string)

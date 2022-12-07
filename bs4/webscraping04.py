@@ -20,7 +20,7 @@ with open('arquivo01.html','r') as f:
 #print(soup.p.get_text())
 
 # buscando texto da tag atual
-print(soup.p.string)
+#print(soup.p.string)
 print(soup.p.b.string)
 
 '''
