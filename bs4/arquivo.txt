@@ -1,3 +1,0 @@
-Python é legal
-curso de BS4
-Estou aprendendo a programar em Python!

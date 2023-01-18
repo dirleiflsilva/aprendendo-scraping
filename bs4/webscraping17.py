@@ -5,11 +5,11 @@ usando Requests
 import requests
 
 # Método post
-url = 'https://context.reverso.net'
+url = 'https://buscacepinter.correios.com.br/app/endereco/carrega-cep-endereco.php'
 # parametros
-payload = {'search':'"pesquisa',
-           'source_lang':'en',
-           'target_lang':'pt'}
+payload = {'pagina':'/app/endereco/index.php',
+           'endereco':'82510-190',
+           'tipoCEP':'ALL'}
 
 response = requests.post(url, data = payload)
 #gravar dados em arquivo

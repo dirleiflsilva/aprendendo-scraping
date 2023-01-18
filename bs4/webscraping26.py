@@ -17,4 +17,4 @@ try:
     r = requests.get(url, proxies=proxies)
     print(r.status_code)
 except requests.exceptions.ConnectionError as e:
-    print(str(e)
+    print(str(e))
