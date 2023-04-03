@@ -1,19 +1,21 @@
 """
 loop utilizando while
 """
-'''
+
 # inicializa contador
+print('Loop usando "while"')
 cont = 1
 
 while cont <= 10:
     print('Estou aprendendo Python com BeautifulSoup!')
     cont = cont + 1
-'''
+
 
 """
 loop utilizando for
 """
-
+print()
+print('Loop usando "for"')
 # range(1, 10) inicia em 1 e incrementa em 1 até 10 - 1 = 9
 # for cont in range(1, 10):
 

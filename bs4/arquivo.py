@@ -27,5 +27,6 @@ Manipulação de arquivos
 
 forma pythonica de ler arquivo
 """
+
 with open('arquivo.txt','r') as file:
     print(file.read())
