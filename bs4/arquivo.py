@@ -3,13 +3,13 @@ Manipulação de arquivos
 
 escrevendo em um arquivo
 """
-'''
+
 arq = open('arquivo.txt', 'w') # w para escrever
 arq.write('Python é legal\n') # \n = quebra de linha
 arq.write('curso de BS4\n')
 arq.write('Estou aprendendo a programar em Python!')
 arq.close()
-'''
+
 
 """
 Manipulação de arquivos
